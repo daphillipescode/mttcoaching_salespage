@@ -8,7 +8,6 @@ const SalesPage: React.FC = () => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
 
-
   const handlePurchase = () => {
     window.open('https://mttcoaching.com/', '_blank');
   };
