@@ -8,10 +8,6 @@ const SalesPage: React.FC = () => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   const handlePurchase = () => {
     window.open('https://mttcoaching.com/', '_blank');

@@ -71,3 +71,6 @@ pnpm-lock.yaml.backup
 *.tmp
 *.temp
 .cache
+
+# Replit configuration
+.replit
