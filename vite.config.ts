@@ -20,6 +20,7 @@ export default defineConfig({
   },
   preview: {
     host: '0.0.0.0',
-    port: 4173
+    port: 4173,
+    allowedHosts: ['mttcoachingsalespage-robingo93.replit.app', '.replit.app', '.replit.dev', 'localhost']
   }
 })
